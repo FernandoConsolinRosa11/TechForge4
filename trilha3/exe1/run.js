@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var veiculo_1 = require("./veiculo");
+var carro_1 = require("./carro");
+var bike_1 = require("./bike");
+console.log("--- Testando as classes ---");
+var veiculoG = new veiculo_1.default();
+veiculoG.mover();
+var carroG = new carro_1.default();
+carroG.mover();
+var BikeG = new bike_1.default();
+BikeG.mover();
